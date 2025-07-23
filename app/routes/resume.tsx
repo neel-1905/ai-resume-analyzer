@@ -46,13 +46,10 @@ const Resume = () => {
       setImageUrl(imageUrl);
 
       setFeedback(data.feedback);
-      console.log({ resumeUrl, imageUrl, feedback: data.feedback });
     };
 
     loadResume();
   }, [id]);
-
-  console.log({ resumeUrl, imageUrl, feedback });
 
   return (
     <main className="!pt-0">
